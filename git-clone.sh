@@ -1,8 +1,8 @@
 #!/bin/bash
 # git clone repo and set git config --local
 
-user_name=""
-user_email=""
+user_name="exp"
+user_email="exp@expmail.com"
 
 echo "Please enter repo address: (support git clone params)"
 read repo_address
