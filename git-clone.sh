@@ -1,7 +1,7 @@
   #!/bin/bash
   # git clone repo and set git config --local
   
-  echo "Please enter repo address: "
+  echo "Please enter repo address: (support git clone params)"
   read repo_address
   echo "Start cloning ${repo_address}..."
   git clone ${repo_address}
