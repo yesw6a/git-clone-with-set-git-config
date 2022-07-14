@@ -24,9 +24,6 @@ if [[ $user_name && $user_email ]]; then
   test $? -ne 0 &&
     echo 'error: Set git local config "uesr.email" failed! 🙅<200d>♂️' && exit
 fi
-if [[ !$user_name && !$user_email ]]; then
-  echo "⚠️  Whitout set git config --local because user_name or user_email is empty!"
-fi
 echo "👤 user_name: ${user_name}"
 echo "💼 nuser_email: ${user_email}"
 echo "🌈 Successful!"
