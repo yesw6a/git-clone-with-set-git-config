@@ -4,6 +4,8 @@ To resolve git clone as well as set git config
 
 ## Usage
 
+| **!!! IMPORTANT !!!** use `source` to exec the shell. For example, `source ./git-clone.sh` .
+
 - User info setting with `git config --local`
 
   1. `vim ./git-clone.sh` to open the source.
